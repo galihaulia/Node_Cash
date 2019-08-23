@@ -1,0 +1,25 @@
+{
+  "name": "NODE_BELAJAR",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "star": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaLHakim/Node_Cash.git"
+  },
+  "author": "Galih Al Hakim",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/GaLHakim/Node_Cash/issues"
+  },
+  "homepage": "https://github.com/GaLHakim/Node_Cash#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.4",
+    "nodemon": "^1.19.1"
+  }
+}
