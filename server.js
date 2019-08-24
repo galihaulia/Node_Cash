@@ -34,9 +34,9 @@ app.get('/', controllers.index)
 app.get('/add', controllers.add)
 app.post('/save', controllers.save)
 app.get('/detail/:id', controllers.details)
-// app.get('/edit/:id', controllers.edit)
-// app.put('/update', controllers.update)
-// app.get('/remove/:id', controllers.remove)
+app.get('/edit/:id', controllers.edit)
+app.put('/update', controllers.update)
+app.get('/remove/:id', controllers.remove)
 
 
 app.listen(3000, () => {
