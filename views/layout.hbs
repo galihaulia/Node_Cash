@@ -20,51 +20,24 @@
 
     <div class="navbar navbar-inverse bg-inverse">
       <div class="container d-flex justify-content-between">
-        <a href="#" class="navbar-brand">NodeCASH</a>
+        <a href="/" class="navbar-brand">NodeCASH</a>
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Login</a>
+            <a class="nav-link" href="/add">Add Item</a>
           </li>
         </ul>
       </div>
     </div>
-    <section class="jumbotron text-center">
-      <div class="container">
-        <h1 class="jumbotron-heading">NodeCASH</h1>
-        <p class="lead text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a ullamcorper tortor, sed faucibus nisl.</p>
-        <p>
-          {{!-- <a href="#" class="btn btn-primary">Browse our collection</a>
-          <a href="/add" class="btn btn-secondary">Add new item</a> --}}
-        </p>
-      </div>
-    </section>
 
-    <div class="album text-muted">
-      <div class="container">
+    {{{ body }}}
 
-        <div class="row">
-          {{#each items}}
-          <div class="card">
-            <img class="img-fluid" src="{{image}}" alt="Card image cap">
-            <p class="card-text">{{description}}</p>
-            <div class="text-center">
-              <a href="/detail/{{ id }}" class="btn btn-warning">Lihat</a>
-              <a href="/edit/{{ id }}" class="btn btn-success">Ubah</a>
-              <a href="/remove/{{ id }}" class="btn btn-danger">Hapus</a>
-            </div>
-          </div>
-          {{/each}}
-        </div>
-
-      </div>
-    </div>
 
     <footer class="text-muted">
       <div class="container">
         <p class="float-right">
           <a href="#">Back to top</a>
         </p>
-        <p>&copy; 2018 NodeCASH Galih Al Hakim. All right reserved.</p>
+        <p>&copy; 2017 NodeCASH Galih Al Hakim. All right reserved.</p>
       </div>
     </footer>
 
